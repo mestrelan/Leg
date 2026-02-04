@@ -10,6 +10,7 @@ Setup
 Clone this repository or download the code.
 
 Create the virtual environment using the provided whisper.yaml file:
+
 ====================================================================================
 Bash
 
@@ -18,6 +19,7 @@ conda env create -f whisper.yaml
 conda activate csi
 
 Note: The environment includes support for PyTorch with CUDA 11.8 for GPU acceleration.
+
 ====================================================================================
 Configuration
 
@@ -28,6 +30,7 @@ WHISPER_MODEL: Defines the model size (e.g., "large", "medium").
 FORCED_LANGUAGE: Set 'pt' for Portuguese or 'en' for English.
 
 Paper_to_process: The path to the folder containing the original videos.
+
 =========================================================================
 Execution
 
@@ -46,3 +49,13 @@ Generate a temporary .srt file.
 Create a new version of the video in the videos_subtitled folder with embedded subtitles.
 
 Log the progress in videos_processed.json so that, in a future execution, the same files are not processed again.
+
+====================
+
+Jesus answered, ‘I am the way and the truth and the life. No-one comes to the Father except through me.
+
+John 14:6 NIVUK
+
+https://bible.com/bible/129/jhn.14.6.NVI
+
+allancostans.blogspot.com 
