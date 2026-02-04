@@ -5,6 +5,7 @@ FFmpeg: The project uses FFmpeg via the command line to embed subtitles in video
 Conda: Recommended for managing AI and GPU dependencies.
 
 =================================================================
+
 Setup
 
 Clone this repository or download the code.
@@ -12,6 +13,7 @@ Clone this repository or download the code.
 Create the virtual environment using the provided whisper.yaml file:
 
 ====================================================================================
+
 Bash
 
 conda env create -f whisper.yaml
@@ -21,6 +23,7 @@ conda activate csi
 Note: The environment includes support for PyTorch with CUDA 11.8 for GPU acceleration.
 
 ====================================================================================
+
 Configuration
 
 Open the main Python file and adjust the following variables in the configuration block:
@@ -32,6 +35,7 @@ FORCED_LANGUAGE: Set 'pt' for Portuguese or 'en' for English.
 Paper_to_process: The path to the folder containing the original videos.
 
 =========================================================================
+
 Execution
 
 Place your videos in the configured folder and run the script:
@@ -51,6 +55,7 @@ Create a new version of the video in the videos_subtitled folder with embedded s
 Log the progress in videos_processed.json so that, in a future execution, the same files are not processed again.
 
 ====================
+
 
 Jesus answered, ‘I am the way and the truth and the life. No-one comes to the Father except through me.
 
